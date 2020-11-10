@@ -3,6 +3,7 @@
 ## Type of testing
 - Unit Testing
 - TDD
+![](tdd_steps.png)
 
 ### Python has several modules that we can use
 To test our code
@@ -17,3 +18,18 @@ To test our code
 - We will run the test and they will all fail
 - we will create a file to write our code
 - We will refactor and add the code to pass the tests
+
+** Naming convention for test files and methods**
+- file name simple_calc
+- test_simple_calc
+
+** install the testing frameworks**
+- use pip install the testing module required
+```python
+pip install pytest
+```
+
+- How does `pytest` work
+
+- pytest looks for the files with `test_*.py` and `_test*.py`
+- `-v` is for verbose flag
